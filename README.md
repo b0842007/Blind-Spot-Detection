@@ -1,5 +1,6 @@
 盲區偵測警示系統：以大型車輛為例 (Blind Spot Detection & Warning System)
 
+
 📌 專案簡介
 
 本專案旨在解決大型車輛因「視野死角」與「內輪差」造成的交通意外。
@@ -7,6 +8,7 @@
 透過 Raspberry Pi 4B 作為核心運算平台，整合 USB Camera 進行即時物件辨識，並結合 VL53L1X 雷射測距感測器 進行精準距離監測。
 
 當系統偵測到行人或車輛進入危險範圍時，會透過 LED 燈號與蜂鳴器發出主動警示。
+
 
 🛠️ 技術重點 
 
@@ -17,7 +19,6 @@
 電腦視覺: Tensorflow Lite / MobileNet-SSD (物件辨識).
 
 作業系統: Ubuntu Server / Raspberry Pi OS.
-
 
 系統架構
 
